@@ -1,0 +1,67 @@
+.thirdSection {
+  padding:6.77vw 0 8.59375vw;
+  position: relative;
+
+  .bg {
+    width: 29.843vw;
+    margin: 0 auto;
+  }
+  .whiteCircle {
+    width: 15.104vw;
+    height: 15.104vw;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      width: 12.483vw;
+    }
+  }
+  .cards {
+    width: 63.047vw;
+    padding: 1vw 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .card {
+      background-color: var(--white-color);
+      width: 20.941vw;
+      border-radius: 2.291vw;
+      height: 26.875vw;
+      box-shadow: 0 0.4vw 0.625vw rgb(0 0 0 / 29%);
+      padding: 2.395vw 3.020vw;
+      box-sizing: border-box;
+
+      .logoCard {
+        width: 100%;
+        margin: 0 0 0.718vw;
+      }
+
+      h1 {
+        font-size: 1.458vw;
+        text-align: center;
+        color: var(--CONGRESSIONAL-NAVY-COLOR);
+        margin: 0 0 1.5vw;
+      }
+      p {
+        font-size: 0.87vw;
+        margin: 0 0 1vw;
+        color: var(--HYDRARGYRUM-COLOR);
+      }
+    }
+  }
+}
