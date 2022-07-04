@@ -1,0 +1,15 @@
+.mainContent {
+  padding: 7.5vw 0 0;
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 69.583vw;
+    height: 39.635vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 17.239vw 0;
+    background-color: rgba(28, 168, 243, 0.05);
+  }
+}

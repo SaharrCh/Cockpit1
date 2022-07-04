@@ -1,0 +1,41 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7.5vw;
+  box-sizing: border-box;
+
+  .headerContent {
+    padding: 1.936vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      &.logo {
+        width: 12.447vw;
+        height: 3.645vw;
+        background-image: url("../public/images/logo.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: block;
+      }
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      grid-gap: 0.625vw;
+
+      p {
+        &.navItem {
+          font-size: 0.9375vw;
+          color: var(--HYDRARGYRUM-COLOR);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

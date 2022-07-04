@@ -1,0 +1,39 @@
+.sectionTop {
+.content   {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .textBloc {
+    width: calc(100% - 44vw);
+    .title{
+      font-size: 2.291vw;
+      margin: 0 0 1.484vw;
+      color: var(--CONGRESSIONAL-NAVY-COLOR);
+      span {
+        display: block;
+        color: var(--AURICHALCITE-COLOR);
+      }
+    }
+
+    p {
+      font-size: 1.041vw;
+      margin: 0 0 2.2661458333333333vw;
+      color: var(--HYDRARGYRUM-COLOR);
+    }
+
+    .bttns {
+      display: flex;
+      align-items: center;
+      grid-gap: 1.979vw;
+     button {
+       width: 9.0104vw;
+     }
+    }
+  }
+
+  img {
+    width: 51.770vw !important;
+  }
+}
+}

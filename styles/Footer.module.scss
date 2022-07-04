@@ -1,0 +1,70 @@
+.footer {
+  height: 13.385vw;
+  background-color: var(--CONGRESSIONAL-NAVY-COLOR);
+  box-sizing: border-box;
+  padding: 1.764vw 0;
+
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      &.logo {
+        width: 12.447vw;
+        height: 3.645vw;
+        background-image: url("../public/images/logo-white.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: block;
+        margin: 0 0 0.911vw;
+      }
+    }
+
+    .fistBlc {
+      width: 21.14583vw;
+
+      p {
+        color: var(--white-color);
+        font-size: 1.041vw;
+      }
+    }
+
+    .secondBlc {
+      width: 17.760vw;
+      color: var(--white-color);
+
+      p {
+        font-size: 0.9375vw;
+        line-height: 1.354vw;
+        &.titl {
+          font-weight: 600;
+          border-bottom: 0.052vw solid var(--white-color);
+          padding: 0 0 1vw;
+          margin: 0 0 0.859vw;
+        }
+      }
+
+      .gridLinks {
+      display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin:0 0 0.911vw;
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .thirdBlc {
+      button {
+        margin: 0 0 1.041vw;
+      }
+      .logFoot {
+        width: 5.052vw;
+        height: 5.052vw;
+        margin: 0 auto;
+      }
+
+    }
+  }
+}

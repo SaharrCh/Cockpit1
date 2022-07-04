@@ -1,0 +1,42 @@
+.benefits {
+  padding: 6.302vw 0;
+
+  p {
+    font-size: 1.041vw;
+    color: var(--DUGONG-COLOR);
+    margin: 0 auto 3.939vw;
+    max-width: 34.479vw;
+    text-align: center;
+  }
+
+  .benefitsContent {
+    width: 63vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.848vw 2.464vw;
+
+    span {
+      font-size: 1.458vw;
+      font-weight: bold;
+      color: var(--CONGRESSIONAL-NAVY-COLOR);
+      position: relative;
+      padding: 0 0 0 2.5vw;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 1.559vw;
+        height: 1.559vw;
+        background-image: url("../public/icons/check-icn.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+  }
+}
