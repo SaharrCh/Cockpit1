@@ -5,6 +5,7 @@ import SectionTop2 from "../components/section-top/SectionTop2";
 import Footer from "../components/footer/Footer";
 import Suppliers3 from '../components/suppliers/Suppliers3';
 import Page2 from '../components/page2/Page2';
+import Formulaire from '../components/formulaire/Formulaire';
 
 
 
@@ -15,7 +16,7 @@ const Avantage = () => {
             <SectionTop2 />
             <Suppliers3 />
             <Page2 />
-
+{/* <Formulaire/> */}
             {/* <GoalsSection /> */}
            
             <Footer />

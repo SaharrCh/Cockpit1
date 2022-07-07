@@ -8,9 +8,8 @@ const Suppliers3 = () => {
     return (
         <div className={styles.suppliers3}>
             <TitleSec2 title="Vos avantages"/>
-            <p >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                Une solution complète vous permettant de faire partie des premiers <br></br>
-           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <p className={styles.ecr} >
+                Une solution complète vous permettant de faire partie  <br></br>des premiers 
             à entrer dans l’Energy management de demain !</p>
             {/* <div className={styles.blcImg}>
                  <Image src={img}/> 

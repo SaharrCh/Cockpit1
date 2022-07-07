@@ -1,58 +1,58 @@
 .suppliers {
-    padding: 4.427vw 0;
-  .p {
-    font-size: 1.145vw;
-    width: 42.604vw;
-    margin: 0 auto 2.083vw;
-    text-align: center;
-    color: var(--DUGONG-COLOR);
-  }
-  
-  .content   {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    .textBloc {
-        width: calc(100% - 44vw);
-        padding-left: 20px;
-        .title{
-          font-size: 2.291vw;
-          margin: 0 0 1.484vw;
-          color: black;
-          span {
-            display: block;
-            color: black;
-          }
-        }
-    
-      }
-    
-      .blcImg {
-        width: 39.479vw;
-        margin: 0 auto;
-      }}
-      .p1 {
-        font-size: 1.145vw;
+  padding: 4.427vw 0;
+  position: relative;
+.p {
+  font-size: 1.145vw;
+  width: 42.604vw;
+  margin: 0 auto 2.083vw;
+  text-align: center;
+  color: var(--DUGONG-COLOR);
+}
 
-        font-weight: bold;
-         
-        text-align: left;
-        color: var(--DUGONG-COLOR);
+.content   {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(28, 168, 243, 0.05) !important;
+  .textBloc {
+      width: calc(100% - 44vw);
+      padding-left: 20px;
+      .title{
+        font-size: 2.291vw;
+        margin: 0 0 1.484vw;
+        color: black;
+        span {
+          display: block;
+          color: black;
+        }
       }
-  }
-  .mainContent {
-    position: relative;
-    &::after {
-      content: "";
-      display: block;
-      width: 69.583vw;
-      height: 39.635vw;
-      position: absolute;
-      top: 0;
-      z-index: -1;
-      border-radius: 0 0 17.239vw 0;
-      background-color: rgba(28, 168, 243, 0.05);
-    }
-  }
   
+    }
+  
+    .blcImg {
+      width: 39.479vw;
+      margin: 0 auto;
+    }}
+    .p1 {
+      font-size: 1.145vw;
+
+      font-weight: bold;
+       
+      text-align: left;
+      color: var(--DUGONG-COLOR);
+    }
+}
+.mainContent {
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 69.583vw;
+    height: 39.635vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 17.239vw 0;
+    background-color: rgba(28, 168, 243, 0.05);
+  }
+}

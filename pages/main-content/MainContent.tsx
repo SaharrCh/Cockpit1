@@ -12,6 +12,7 @@ import Suppliers4 from '../../components/suppliers/Suppliers4';
 import ThirdSection from "../../components/third-section/ThirdSection";
 import Benefits from "../../components/benefits/Benefits";
 import Suppliers3cartes from '../../components/suppliers/Suppliers3cartes';
+import SuppliersAbonnement from '../../components/suppliers/Suppliersabonnement';
 
 const MainContent = () => {
     return (
@@ -22,11 +23,8 @@ const MainContent = () => {
             <Suppliers1 />
             <ThirdSection/>
             <Suppliers3cartes/>
-            {/* <Sec1/> */}
-            {/* <GoalsSection /> */}
-            {/* <Suppliers2 /> */}
             <Benefits/>
-            <Avis/>
+            <SuppliersAbonnement />
             <Suppliers4 />
             <Suppliers />
             <Footer />

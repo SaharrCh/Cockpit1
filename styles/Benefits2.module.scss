@@ -1,43 +1,57 @@
 .benefits {
-    padding: 6.302vw 0;
+  padding: 6.302vw 0;
+
+  p {
+    font-size: 1.041vw;
+    color: var(--DUGONG-COLOR);
+    margin: 0 auto 3.939vw;
+    max-width: 34.479vw;
+    text-align: center;
+  }
   
-    p {
-      font-size: 1.041vw;
-      color: var(--DUGONG-COLOR);
-      margin: 0 auto 3.939vw;
-      max-width: 34.479vw;
-      text-align: center;
-    }
-  
-    .benefitsContent {
-      width: 75vw;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap: 1.848vw 2.464vw;
-  
-      span {
-        font-size: 1.458vw;
-        font-weight: bold;
-        color: var(--CONGRESSIONAL-NAVY-COLOR);
-        position: relative;
-        padding: 0 0 0 2.5vw;
-  
-        &::before {
-          content: "";
-          display: block;
-          width: 1.559vw;
-          height: 1.559vw;
-          background-image: url("../public/icons/check-icn.png");
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: 100%;
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          margin: auto;
-        }
+  .ecr2 {
+    margin: inherit;
+    padding-top: 3.3203125vw;
+
+    top: 110.28645833333333vw;
+    left: 14.453125vw;
+    width: 33.919270833333336vw;
+    height: 6.575520833333333vw;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 1.3020833333333333vw/1.5625vw Sofia Pro;
+    letter-spacing: 0px;
+    color: #898989;
+    opacity: 1;
+  }
+  .benefitsContent {
+    width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.848vw 2.464vw;
+
+    span {
+      font-size: 1.458vw;
+      font-weight: bold;
+      color: var(--CONGRESSIONAL-NAVY-COLOR);
+      position: relative;
+      padding: 0 0 0 2.5vw;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 1.559vw;
+        height: 1.559vw;
+        background-image: url("../public/icons/check-icn.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: auto;
       }
     }
   }
-  
+}

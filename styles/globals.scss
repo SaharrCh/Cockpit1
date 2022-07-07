@@ -49,6 +49,22 @@ button {
     color: var(--WINTERGREEN-COLOR);
     border: 0.15625vw solid var(--WINTERGREEN-COLOR);
   }
+  &.third-btn {
+    top: 1606px;
+left: 222px;
+width: 297px;
+height: 41px;
+/* UI Properties */
+border: 3px solid #1AF380;
+opacity: 1;
+    border-radius: 4vw;
+    font-size: 0.9375vw;
+    cursor: pointer;
+    height: 2.1875vw;
+    color: var(--WINTERGREEN-COLOR);
+    border: 0.15625vw solid var(--WINTERGREEN-COLOR);
+  }
+  
 }
 
 .container {

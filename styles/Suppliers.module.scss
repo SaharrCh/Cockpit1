@@ -1,5 +1,118 @@
 .suppliers {
   padding: 4.427vw 0;
+  .x{
+    left:  10.546875vw;
+width: 121.74479166666667vw;
+height: 37.825520833333336vw;
+  }
+  .w{
+    font-size: 1.145vw;
+  width: 42.604vw;
+  margin: 0 auto 2.083vw;
+  text-align: center;
+  color: var(--AURICHALCITE-COLOR);
+  }
+  .layout{
+    top: 6104px;
+
+/* UI Properties */
+background-image:  url('../public/images/Rectangle 89.svg')  ;
+border-radius: 3.90625vw 0px 0px 14.127604166666666vw;
+margin-left: 4rem;
+    margin-top: 10rem;
+  }
+  .parag1{
+    
+    width: 20.9635416667vw;
+    margin: -2.1484375vw auto;
+    border: 0.1302083333vw solid #29f1d6;
+    border-radius: 50px;
+    background-color: white;
+    transform: translateY(0.6510416667vw);
+    /* font-size: 0.9375vw; */
+    cursor: pointer;
+    /* height: 2.1875vw; */
+    color: #29f1d6;
+    border: 0.15625vw solid #29f1d6;
+  }
+
+  .clas1{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clas2{
+
+    font-size: 3.515625vw;
+  }
+  .clas3{
+    font-size: 1.6276041666666667vw;
+    /* margin-top: 45px; */
+    margin: 0 0.6510416666666666vw 4.166666666666667vw 0.5859375vw;
+    
+  }
+
+.Acc{
+  top: 405.3385416666667vw;
+  left: 29.4921875vw;
+  width: 6.0546875vw;
+  height: 4.6875vw;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  text-align: left;
+  font: normal normal normal 90px/108px Helvetica LT Std;
+  letter-spacing: 0px;
+  color: #16D9EF;
+  opacity: 1;
+}
+.Acc2{
+  top: 419.53125vw;
+  left: 84.30989583333333vw;
+  width: 11.197916666666666vw;
+  height: 11.979166666666666vw;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 90px/108px Helvetica LT Std;
+  letter-spacing: 0px;
+  color: #16D9EF;
+  opacity: 1;
+}
+.Acc3{
+  top: 14.0625vw;
+left: 6.184895833333333vw;
+width: 39.518229166666664vw;
+height: 1.5625vw;
+text-align: center;
+font: normal normal medium 1.3020833333333333vw/1.5625vw Rubik;
+letter-spacing: 0px;
+color: #16D9EF;
+}
+.eclipse{
+  top: 430.6640625vw;
+left: 60.091145833333336vw;
+width: 0.9114583333333334vw;
+height: 0.9114583333333334vw;
+background: transparent url('/images/Ellipse 17.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-left:  47.721354166666664vw;
+}
+.eclipse2{
+  top: 430.6640625vw;
+left: 60.091145833333336vw;
+width: 0.9114583333333334vw;
+height: 0.9114583333333334vw;
+background: transparent url('/images/Ellipse 18.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-left:  47.721354166666664vw;
+
+}
+  .clr {
+   
+    background-color: var( --AURICHALCITE-COLOR);
+  } 
+  
+  padding: 4.427vw 0;
 p {
   font-size: 1.145vw;
   width: 42.604vw;
@@ -7,6 +120,7 @@ p {
   text-align: center;
   color: var(--DUGONG-COLOR);
 }
+
 .content   {
   display: flex;
   justify-content: space-between;
