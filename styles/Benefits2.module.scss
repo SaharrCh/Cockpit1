@@ -1,14 +1,14 @@
 .benefits {
-  padding: 6.302vw 0;
+  padding: 0 0 3vw;
 
   p {
     font-size: 1.041vw;
     color: var(--DUGONG-COLOR);
-    margin: 0 auto 3.939vw;
+    margin: 0 auto 2vw;
     max-width: 34.479vw;
     text-align: center;
   }
-  
+
   .ecr2 {
     margin: inherit;
     padding-top: 3.3203125vw;
@@ -25,8 +25,8 @@
     opacity: 1;
   }
   .benefitsContent {
-    width: 75vw;
-    margin: 0 auto;
+    margin: 4vw auto 0 !important;
+    width: 46vw !important;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1.848vw 2.464vw;
@@ -51,6 +51,58 @@
         left: 0;
         bottom: 0;
         margin: auto;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    .leftContent,
+    .rightContent {
+      width: 50vw;
+    }
+
+    .rightContent {
+      .formulaire {
+        padding: 0 0 3vw;
+        box-shadow: 0 0 1vw #cdcdcd;
+        border-radius: 3vw;
+        p {
+          margin: 0 0 1vw;
+        }
+        .titleForm {
+          background-color: #16D9EF;
+          border-radius: 3vw 3vw 0 0;
+          padding: 1vw;
+          font-weight: normal;
+
+          h1 {
+            color: var(--white-color);
+            text-align: center;
+            font-size: 1.7vw;
+          }
+        }
+
+        .formContent {
+          padding: 1vw 2vw 0;
+        }
+        button {
+          box-shadow: 0.5vw 0.5vw 2vw 0 rgb(0 0 0 / 10%);
+          width: 15vw;
+          margin: 3vw auto 0;
+          display: block;
+          border-radius: 3vw;
+          border: none;
+          background-color: #16D9EF;
+          color: var(--white-color);
+          padding: 0.4vw 0;
+          font-weight: 600;
+          background-image: url("../public/icons/right-arrow.png");
+          background-repeat: no-repeat;
+          background-position: 4.3vw;
+          background-size: 1vw;
+          cursor: pointer;
+        }
       }
     }
   }
